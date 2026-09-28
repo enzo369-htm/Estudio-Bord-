@@ -1,0 +1,12 @@
+const MARK =
+  "M0 181 L0 0 L133 0 L144 2 L159 9 L166 17 L171 29 L172 48 L169 61 L165 68 L158 75 L149 80 L128 84 L87 84 L83 88 L83 94 L89 98 L127 98 L139 100 L152 105 L162 114 L168 130 L168 150 L162 166 L155 173 L143 179 L127 182 L0 182 Z M34 180 L114 180 L127 176 L134 169 L138 160 L140 150 L140 130 L136 115 L128 105 L121 101 L113 99 L79 99 L52 102 L49 101 L44 95 L44 86 L47 82 L51 80 L63 80 L85 83 L115 83 L130 78 L139 68 L142 60 L143 29 L141 20 L136 11 L129 5 L122 2 L106 2 L33 2 L33 180 Z";
+
+export default function LogoFallback() {
+  return (
+    <svg className="logo-fallback" viewBox="0 0 172 182" aria-hidden="true">
+      <g transform="translate(0 182) scale(1 -1)">
+        <path fill="#5a2f37" fillRule="evenodd" d={MARK} />
+      </g>
+    </svg>
+  );
+}
